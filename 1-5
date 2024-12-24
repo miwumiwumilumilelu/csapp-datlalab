@@ -1,9 +1,9 @@
 2024/12/24
 #score:7/36 完成5道题
-make clean
-make bits.c
-./btest
-./dlc #这个文件用来约束代码规范，如第三题不允许有0x7fffffff,第四题不允许有0xAAAAAAAA，only 0x0-0xff allowed.
+#make clean
+#make bits.c
+#./btest
+#./dlc #这个文件用来约束代码规范，如第三题不允许有0x7fffffff,第四题不允许有0xAAAAAAAA，only 0x0-0xff allowed.
 
 int bitXor(int x, int y) {
   //x,y全为1时，&才为1，异或运算^是x,y相同为0，不同为1
